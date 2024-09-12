@@ -1,5 +1,24 @@
+*{
+    text-align:center;
+}
+
 body{
     background-color: blueviolet;
+}
+img{
+        width:50% ;        /* largura da imagem. */
+        height:50% ;         /*altura da imagem.*/
+        opacity:75%;
+        filter: grayscale();
+        border: 2px dashed;
+        border-color:black (255,0,0);
+
+}
+    
+img:hover{
+    opacity: 100%;
+    filter: brightness();
+
 }
 
 h1{
